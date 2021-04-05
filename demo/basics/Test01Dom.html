@@ -20,8 +20,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
- <!--  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+ <!--  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
  -->
 
   <title>
@@ -33,14 +33,14 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
   <!-- Nucleo Icons -->
-  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../../assets/css/nucleo-icons.css" rel="stylesheet" />
   
   <!-- CSS Files -->
-  <link href="assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <link href="../../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <script src="Demo01DOM.js"></script>
 
-  <!-- CSS Just for demo purpose, don't include it in your project --
-  <link href="assets/demo/demo.css" rel="stylesheet" />
--->
+</body>
+</html>
 
 </head>
 
@@ -52,11 +52,11 @@
     -->
       <div class="sidebar-wrapper">
         <div class="logo">
-          <a href="javascript:void(0)" class="simple-text logo-mini">
-            CT
+          <a href="javascript:void(0)" class="simple-text logo-mini" >
+            &nbsp;
           </a>
-          <a href="javascript:void(0)" class="simple-text logo-normal">
-            Creative Tim
+          <a href="javascript:void(0)" class="simple-text logo-normal" onclick="addNewNodes()">
+           Click Here 
           </a>
         </div>
         <ul class="nav">
@@ -162,7 +162,7 @@
               <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                   <div class="photo">
-                    <img src="assets/img/anime3.png" alt="Profile Photo">
+                    <img src="../../assets/img/anime3.png" alt="Profile Photo">
                   </div>
                   <b class="caret d-none d-lg-block d-xl-block"></b>
                   <p class="d-lg-none">
@@ -199,7 +199,7 @@
           <div class="col-12">
             <div class="card card-chart">
               <div class="card-header ">
-                <div class="row">
+                <div class="row" id="row1">
                   <div class="col-sm-6 text-left">
                     <h5 class="card-category">Total Shipments</h5>
                     <h2 class="card-title">Performance</h2>
@@ -232,8 +232,8 @@
                 </div>
               </div>
               <div class="card-body">
-                <div class="chart-area">
-                  <canvas id="chartBig1"></canvas>
+                <div id="cardTable">
+                 
                 </div>
               </div>
             </div>
@@ -642,24 +642,24 @@
   <!-- 
 
   <!--   Core JS Files   -
-  <script src="assets/js/core/jquery.min.js"></script>
-  <script src="assets/js/core/popper.min.js"></script>
-  <script src="assets/js/core/bootstrap.min.js"></script>
-  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="../../assets/js/core/jquery.min.js"></script>
+  <script src="../../assets/js/core/popper.min.js"></script>
+  <script src="../../assets/js/core/bootstrap.min.js"></script>
+  <script src="../../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
   <!--  Google Maps Plugin    -->
   <!-- Place this tag in your head or just before your close body tag. --
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
   <!-- Chart JS --
-  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <script src="../../assets/js/plugins/chartjs.min.js"></script>
 
   <!--  Notifications Plugin    --
-  <script src="assets/js/plugins/bootstrap-notify.js"></script>
+  <script src="../../assets/js/plugins/bootstrap-notify.js"></script>
   
   <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc --
-  <script src="assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! --
+  <script src="../../assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! --
   
-  <script src="assets/demo/demo.js"></script>
+  <script src="../../assets/demo/demo.js"></script>
   
   -->
 
@@ -779,7 +779,7 @@
   <script>
     /*
     $(document).ready(function() {
-      // Javascript method's body can be found in assets/js/demos.js
+      // Javascript method's body can be found in ../../assets/js/demos.js
       demo.initDashboardPageCharts();
 
     });*/

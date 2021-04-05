@@ -1,0 +1,11 @@
+
+Css Selector
+
+document.querySelectorAll('#').forEach(node => {node.style.background='yellow'})
+document.querySelectorAll('li').forEach(node => {node.style.background='yellow'})
+
+document.querySelectorAll('.tim-icons').forEach(node => {node.style.background='yellow'})
+document.querySelectorAll('li:nth-child(2)').forEach(node => {node.style.background='yellow'})
+document.querySelectorAll('li:last-child').forEach(node => {node.style.background='yellow'})
+document.querySelectorAll('li:nth-child(odd)').forEach(node => {node.style.background='yellow'})
+
